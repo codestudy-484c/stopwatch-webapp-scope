@@ -83,6 +83,8 @@
         padding-right: 24px;
         font-weight: bold;
         font-size: 1rem;
+        border-style: solid;
+        border-width: 0px;
     }
 
     .btn-start {
