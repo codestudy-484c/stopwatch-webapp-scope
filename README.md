@@ -1,6 +1,10 @@
 # stopwatch-webapp-scope
 Simple Stopwatch Web app Project with SvelteKit
 
+### Wireframes
+made with Apple Numbers
+<img width="647" height="386" alt="스크린샷 2026-01-26 오후 5 15 20" src="https://github.com/user-attachments/assets/0492719e-147d-4c8d-a292-dd895068d8a6" />
+
 
 ### Logs
 > ⚠️Korean Only⚠️
