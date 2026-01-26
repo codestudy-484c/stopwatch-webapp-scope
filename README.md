@@ -17,3 +17,7 @@ made with Apple Numbers
   ```plain-text
   CSS 깎기
   ```
+* 26.01.26. [초시계_02.log](https://blog.naver.com/scope-hyena/224160463885)
+  ```plain-text
+  GitHub Repo에 올리기
+  ```
