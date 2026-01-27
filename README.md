@@ -21,3 +21,9 @@ made with Apple Numbers
   ```plain-text
   GitHub Repo에 올리기
   ```
+* 26.01.27. [초시계_03.log](https://blog.naver.com/scope-hyena/224161186273)
+  ```plain-text
+  남은 기능 정리, 칸반 보드 도입
+  ```
+  <img width="1366" height="1024" alt="IMG_0270" src="https://github.com/user-attachments/assets/47704150-e765-44c8-8fa0-53bf61ed608a" />
+
