@@ -1,11 +1,43 @@
+<script lang="ts">
+    // Timer status
+    let time = $state(0);  // in milliseconds
+    let isRunning = $state(false);
+    let elapsedTime = $state(0);  // in milliseconds
+    let lapTimes = $state([]); // array of lap times in milliseconds
+    let lastLapTime = $state(0); // in milliseconds
 
+    // Format time in milliseconds to string `HH:MM'SS"mmm`
+    function msToTime(duration: number) {
+        const milsec = Math.floor(duration % 1000),
+            sec = Math.floor((duration/1000) % 60),
+            min = Math.floor((duration/(1000 * 60))% 60),
+            hour = Math.floor(duration/(1000 * 60 * 60));
 
+        const fMS = milsec.toString().padStart(3, '0');
+        const fSec = sec.toString().padStart(2, '0');
+        const fMin = min.toString().padStart(2, '0');
+        const fHr = hour.toString().padStart(2, '0');
 
+        return `${fHr}:${fMin}'${fSec}"${fMS}`;
+    }
+
+    let formattedTime = $derived(msToTime(time));
+
+    /// TEST
+    let testTime = $state(9776150);
+    let formattedTestTime = $derived(msToTime(testTime));
+    const setToRandom = () => {
+        testTime = Math.floor(Math.random() * 3600000);
+    };
+
+</script>
 
 <main class="container">
     <!-- display area -->
     <div class="timer-display">
-        00:00'00"000
+        <!-- TEST -->
+        {formattedTestTime}
+        <!-- {formattedTime} -->
     </div>
 
     <!-- button group -->
