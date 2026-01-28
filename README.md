@@ -9,7 +9,7 @@ Made with Apple Numbers
 ### Logs
 > ⚠️Korean Only⚠️
 
-* 26.01.25. [초시계__00.log](https://blog.naver.com/scope-hyena/224159159666)
+* 26.01.25. [초시계_00.log](https://blog.naver.com/scope-hyena/224159159666)
   ```plain-text
   와이어프레임 잡기, 프로젝트 생성, HTML로 요소 배치
   ```
@@ -29,5 +29,12 @@ Made with Apple Numbers
   남은 기능 정리, 칸반 보드 도입
   ```
   <img width="1366" height="1024" alt="Image that shows Kanban board with some To-do features made with Reminder app" src="https://github.com/user-attachments/assets/47704150-e765-44c8-8fa0-53bf61ed608a" />
+
+* 26.01.27. [초시계_04.log](https://blog.naver.com/scope-hyena/224162887921)
+  ```plain-text
+  로직 짜기 시작, 타이머 속성 state, 시간 포맷팅 derives 작성
+  ```
+
+  
 
 
