@@ -70,11 +70,12 @@
         padding: 0;
         overflow: hidden;
         overscroll-behavior: none;
+        font-family: ui-monospace, 'Monaco', 'Courier New';
     }
 
     main {
         display: flex;
-        max-width: 320pt;
+        max-width: 260pt;
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -90,11 +91,12 @@
         justify-content: center;
         align-items: center;
         height: 56pt;
-        font-size: x-large;
+        font-size: xx-large;
         border-style: solid;
         border-width: 1.5px;
         border-color: gray;
         margin-bottom: 0.5rem;
+        font-weight: bold;
     }
 
     .button-group {
@@ -111,8 +113,8 @@
     button {
         border-radius: 12rem;
         min-width: 55px;
-        padding-left: 24px;
-        padding-right: 24px;
+        padding-left: 18px;
+        padding-right: 18px;
         font-weight: bold;
         font-size: 1rem;
         border-style: solid;
@@ -147,6 +149,7 @@
         border-width: 1px;
         padding-bottom: 0.5rem;
         padding-top: 0.5rem;
+        font-weight: bold;
     }
 
     .lap-item {
