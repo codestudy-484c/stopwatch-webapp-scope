@@ -30,11 +30,15 @@ Made with Apple Numbers
   ```
   <img width="1366" height="1024" alt="Image that shows Kanban board with some To-do features made with Reminder app" src="https://github.com/user-attachments/assets/47704150-e765-44c8-8fa0-53bf61ed608a" />
 
-* 26.01.27. [초시계_04.log](https://blog.naver.com/scope-hyena/224162887921)
+* 26.01.28. [초시계_04.log](https://blog.naver.com/scope-hyena/224162887921)
   ```plain-text
   로직 짜기 시작, 타이머 속성 state, 시간 포맷팅 derives 작성
   ```
 
+* 26.01.29. [초시계_05.log](https://blog.naver.com/scope-hyena/224164579708)
+  ```plain-text
+  monospace font 적용, 디자인 수정
+  ```
   
 
 
